@@ -27,28 +27,6 @@ This model is a unique synthesis of several state-of-the-art concepts, leading t
     * The **`Local Attention`** acts as a high-precision tool for analyzing complex grammatical structures within a *local* window.
 * **Structured Learning:** The model leverages a built-in Curriculum Learning system, allowing it to build robust knowledge by progressing from simple to complex examples, mirroring human learning patterns.
 
-## How to Use
-
-The entire training setup is self-contained in a single script.
-
-### 1. Setup
-Ensure you have Python 3 installed. Clone this repository and install the necessary dependencies using the following command:
-```bash
-pip install -r requirements.txt
-
-2. Start Training
-
-To start a new training run from scratch, simply execute the main script:
-python SpikeWalze_V3_Sprachmodell_Wiki_Circulum_Training.py
-
-3. Resume from a Checkpoint
-
-To resume training from a saved checkpoint, edit the config dictionary at the bottom of the script:
-config = {
-    # ...
-    # Set the path to your checkpoint file here
-    'model_path': 'checkpoints/model_epoch_100.pt' 
-}
 
 The Origin Story
 
